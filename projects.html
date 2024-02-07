@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>
-			Home page
+			Projects
 		</title>
 		<meta charset="UTF-8">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -13,12 +13,8 @@
 			  border: 3px solid green;
 			}
 			img {
-			  border-radius: 90%;
+			  border-radius: 70%;
 			}
-/*			img.avatar {
-			  width: 40%;
-			  border-radius: 50%;
-			}*/
 		</style>
 	</head>
 	<body>
@@ -35,7 +31,7 @@
 			          <a class="nav-link" href="./resume.html">Resume</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="./projects.html">Projects</a>
+			          <a class="nav-link active" href="./projects.html">Projects</a>
 			        </li>
 			        <li class="nav-item">
 			          <a class="nav-link" href="./contact.html">Contact</a>
@@ -53,19 +49,47 @@
 		</div>
 
 
-
-		<div style = "text-align: center;">
-		  <img src="./mypic.jpg" style="width:300px" alt="Avatar">
-		  <div class="card-body">
-		  	<h3>Professional statement</h3>
-		    <p class="card-text">My name is Haoyu and I am currently a student pursuing a Bachelor's degree in Accountancy at Concordia University. With a strong interest in both programming and finance, I am dedicated to leveraging my programming skills to make a meaningful impact on the field of economics. My goal is to integrate these two areas of expertise to develop innovative solutions that optimize economic processes and decision-making. </p>
-		  </div>
-		  <div class="card-body">
-		  	<h3> Bio</h3>
-		    <p class="card-text">I have a solid foundation in discrete mathematics and proficiency in various programming languages such as HTML, CSS, and JavaScript. I have acquired certificates from Coursera and EDx in these fields, showcasing my commitment to continuous learning. My expertise in mathematics enhances my logical thinking abilities, enabling me to approach problems methodically and find effective solutions step by step.
-		</div>
-
-
+		<table class="table table-striped-columns">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Name</th>
+		      <th scope="col">Type</th>
+		      <th scope="col">Date</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>Soen287 personal webpage project</td>
+		      <td>Personal Project</td>
+		      <td>2024-01-30</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td><a href = "http://www.ijsred.com/volume7/issue1/IJSRED-V7I1P17.pdf">Application of Set Intersecting Graph in Number Theory</a></td>
+		      <td>Research Paper</td>
+		      <td>2024-01-18</td>
+		    </tr>
+<!-- 		    <tr>
+		      <th scope="row">2</th>
+		      <td><a href = "http://www.ijsred.com/volume7/issue1/IJSRED-V7I1P17.pdf">Application of Set Intersecting Graph in Number Theory</a></td>
+		      <td>Research Paper</td>
+		      <td>2024-01-18</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td><a href = "http://www.ijsred.com/volume7/issue1/IJSRED-V7I1P17.pdf">Application of Set Intersecting Graph in Number Theory</a></td>
+		      <td>Research Paper</td>
+		      <td>2024-01-18</td>
+		    </tr> -->
+		    <!-- tr>
+		      <th scope="row">3</th>
+		      <td colspan="2">Larry the Bird</td>
+		      <td>@twitter</td>
+		    </tr> -->
+		  </tbody>
+		</table>
 
 	</body>
 
